@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contacte.css">
+    <link rel="stylesheet" media="(max-width:500px)" href="mediaQuery.css">
+    <title>ETS Gautherot Guillaume</title>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div> 
+                <div class="lien">
+                    <p>✆ 03 21 00 00 00</p>
+                </div>
+                
+            </div>
+            <div class="inscription">
+                <span>
+                    <a href="acceuil.html"><img src="img/ferreteria-logo-png-3.png" alt="logo" class="photo"></a>
+                </span>
+                <div class="lien">
+                    <a href="localisation.html" class="lien2"><strong>Ou nous trouvez ?</strong> </a>
+                </div>
+                <input class="recherche" type="search" name="" id="" placeholder="recherche...">
+                <button type="submit""><a href=""><img class="search" src="img/logo-search.png"
+                    alt="logo recherche"></a></button>
+            </div>
+        </nav>
+            <div id="wrap">
+                <ul class="navbar">
+                  <li>
+                    <a href="acceuil.html">Accueil</a>
+                  </li>
+                  <li>
+                    <a href="présentation.html">Pésentations</a>
+                    <ul>
+                        <li>
+                            <a href="galeriePhoto.html">Nos réalisations</a>
+                        </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">Préstation</a>
+                    <ul>
+                      <li><a href="carrelage.html">Carrelage</a></li>
+                      <li><a href="douche à l'italienne.html">Douche à l'italienne</a></li>
+                      <li><a href="maçonnerie.html">Maçonnerie</a></li>
+                      <li><a href="ravalement2façade.html">Ravalement de façade</a></li>
+                      <li><a href="renovation.html">Rénovation</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">Nous Contactez</a>
+                    <ul>
+                      <li><a href="contacte.html" class="active">Formulaire de contacte</a></li>
+                      <li><a href="localisation.html">Localisation</a></li>
+                      <li><a href="votre avis.html">Votre avis</a></li>
+                    </ul>
+                  </li>
+
+                </div>
+            </div>
+        
+    </header>
+    <section>
+        <article>
+            <div class="containers">
+                <h2>Formulaire de Contact</h2>
+                <form action="#">
+                    <p><i>Complétez le formulaire. Les champs marqué par </i><em>*</em> sont <em>obligatoires</em></p>
+                    <br>
+                    <fieldset>
+                        <legend>Contact</legend>
+                        <label for="nom">Nom Prénom<em>*</em></label>
+                        <input id="nom" type="text" placeholder="Olivier Serre" autofocus="" required=""><br>
+
+                        <label for="telephone">Portable</label>
+                        <input id="telephone" type="tel" placeholder="06xxxxxxxx" pattern="06[0-9]{8}"><br>
+
+                        <label for="email">Email <em>*</em></label>
+                        <input id="email" type="email" placeholder="prenom.nom@polytechnique.edu" required=""
+                            pattern="[a-zA-Z]*.[a-zA-Z]*@polytechnique.edu"><br>
+
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Information personnelles</legend>
+
+                        <label for="sexe">Sexe</label>
+                        <select id="sexe">
+                            <option value="H" name="sexe">Homme</option>
+                            <option value="F" name="sexe">Femme</option>
+                            
+                        </select>
+                        <br>
+                        <label for="comment"> Quelle est la Prestations que vous recherchez ?</label>
+                        <br>
+                        <textarea id="comment"></textarea>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                    <p><input type="submit" value="Soummettre"></p>
+                </form>
+        </article>
+        </div>
+        </article>
+    </section>
+    <footer>
+        <div class="footer">
+            <div>
+                <ul>
+                <p>
+                    43- <span>rue Augustin Hornain</span> 
+                    <br>
+                    59175, Templemars
+                </p>
+                
+                    <li>
+                        <button type="submit""><a href="#"><img class="search" src="img/instagram-icon-logo-social.png" 
+                            alt="instagram-icon-logo-social"></a></button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
