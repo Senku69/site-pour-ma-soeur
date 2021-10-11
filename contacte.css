@@ -28,8 +28,7 @@ button {
 
 .recherche {
   height: 30px;
-  width: 450px;
-  /* margin-left: 30%; */
+  width: 180px;
   border-radius: 30px;
 }
 
@@ -40,7 +39,7 @@ button {
 }
 
 .photo {
-  margin: 80px;
+  margin: 280px;
   padding: 25px;
   display: flex;
   justify-content: center;
@@ -160,12 +159,10 @@ a:hover {
 }
 
 section {
-  /* margin: 0 auto; */
   margin-top: 2px;
   padding: 20px;
-  height: 300vh;
+  height: 100%;
   background-color: rgba(223, 210, 210, 0.74);
-  /* background-repeat: no-repeat; */
   background-size: contain;
 }
 
