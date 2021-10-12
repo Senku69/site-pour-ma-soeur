@@ -32,14 +32,14 @@ button {
   border-radius: 30px;
 }
 
-.search {
+.searchs {
   width: 30px;
   height: 30px;
   background-color: #1171cc;
 }
 
 .photo {
-  margin: 80px;
+  margin: 280px;
   padding: 25px;
   display: flex;
   justify-content: center;

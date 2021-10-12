@@ -32,7 +32,7 @@ button {
   border-radius: 30px;
 }
 
-.search {
+.searchs {
   width: 30px;
   height: 30px;
   background-color: #1171cc;
@@ -160,7 +160,7 @@ a:hover {
 
 section {
   margin-top: 0 auto;
-  padding: 40px;
+  padding: 10px;
   height: 100%;
   background-color: rgba(223, 210, 210, 0.74);
 }
@@ -172,17 +172,17 @@ h2 {
 }
 
 .container {
-  width: 100%;
-  height: 100%;
+  width: 900px;
+  height: 900px;
   margin: 0 auto;
-  margin-top: 5%;
+  margin-top: 2%;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 /* Bordered form */
 form {
   width: 100%;
-  padding: 30px;
+  padding: 10px;
   border: 5px solid #f1f1f1;
   background: #fff;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.24);
@@ -201,8 +201,8 @@ input[type="email"] {
 }
 
 #comments {
-  width: 900px;
-  height: 400px;
+  width: 800px;
+  height: 300px;
 }
 
 input[type="submit"] {
