@@ -189,8 +189,6 @@ h2 {
 }
 
 img {
-  display: flex;
-  flex-direction: row;
   height: 300px;
   width: 300px;
 }
