@@ -28,7 +28,7 @@ button {
 
 .recherche {
   height: 30px;
-  width: 200px;
+  width: 220px;
   border-radius: 30px;
 }
 
@@ -39,7 +39,7 @@ button {
 }
 
 .photo {
-  margin: 280px;
+  margin: 20px;
   padding: 25px;
   display: flex;
   justify-content: center;
@@ -50,15 +50,16 @@ button {
 
 .inscription {
   height: 150px;
+  width: 100%;
   margin-right: 30px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .lien {
-  margin: 30px;
+  margin: 0 auto;
   color: black;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
