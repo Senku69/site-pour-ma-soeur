@@ -16,7 +16,7 @@ header nav {
   align-items: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-
+/* 
 button {
   background-color: #1171cc;
   border: #281483;
@@ -36,7 +36,7 @@ button {
   width: 30px;
   height: 30px;
   background-color: #1171cc;
-}
+} */
 
 .photo {
   margin: 20px;
@@ -51,15 +51,16 @@ button {
 .inscription {
   height: 150px;
   width: 100%;
-  margin-right: 30px;
+  margin-right: 10%;
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .lien {
-  margin: 0 auto;
+  
   color: black;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
